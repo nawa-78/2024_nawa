@@ -1,0 +1,2 @@
+timestamp,experiment_id,project_name,duration,emissions,energy_consumed,country_name,country_iso_code,region,on_cloud,cloud_provider,cloud_region
+2024-01-12T04:47:44,2c1c4e08-b64a-4e88-8986-99ac1b448923,codecarbon,214.974303483963,0.015323961751442112,0.020072541273375825,Japan,JPN,hyōgo,N,,
