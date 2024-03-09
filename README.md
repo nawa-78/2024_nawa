@@ -2,7 +2,7 @@
 # 題名「共感的な応答を生成できる対話システム」
 
 - emotion→感情分類器について
-
+  
 - dialogueact→対話行為分類器について
 
 - dialogueact_emotion→学習データに感情ラベルを付与
