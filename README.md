@@ -15,8 +15,18 @@
   - data → 「JAISTタグ付き自由対話コーパス」
 
 - jpempathetic_dialogue→jpempatheticコーパスに対話行為ラベルを付与
-　- data → dataset「Empathetic Dialogueコーパスの日本語版」
+  - data → dataset「Empathetic Dialogueコーパスの日本語版」
+  
+- dialogueact system→応答文生成モデル
+  - data → 「JAISTタグ付き自由対話コーパス」に感情ラベルを付与したもの
+  - output..10 → 各フィルタリングでの学習曲線
+  - nasinasi → 学習フィルタリングなし，発話時フィルタリングなしの学習結果
+  - arinasi → 学習フィルタリングあり，発話時フィルタリングなしの学習結果
+  - nasiari → 学習フィルタリングなし，発話時フィルタリングありの学習結果
+  - ariari → 学習フィルタリングあり，発話時フィルタリングありの学習結果
+ 
+  - 主観評価 - 協力者2名による評価(kappa係数を出している)
+  - 結果 - テストデータで応答文を生成した結果
   
 
-- dialogueact system→応答文生成モデル
 
